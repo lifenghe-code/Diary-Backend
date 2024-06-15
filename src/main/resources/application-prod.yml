@@ -5,7 +5,7 @@ spring:
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: 'jdbc:mysql:82.156.145.181:3306/diary?useSSL=false'
+    url: jdbc:mysql://127.0.0.1:3306/diary?useSSL=false
     username: root
     password: 123456
   # session 失效时间

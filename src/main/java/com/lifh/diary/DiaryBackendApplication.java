@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.lifh.diary.mapper")
+
 public class DiaryBackendApplication {
 
     public static void main(String[] args) {

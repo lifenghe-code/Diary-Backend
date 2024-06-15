@@ -16,11 +16,10 @@ import com.lifh.diary.service.CommentService;
 import com.lifh.diary.service.DiaryService;
 import com.lifh.diary.service.UserService;
 import jakarta.annotation.Resource;
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;
-
-import jakarta.servlet.http.HttpServletRequest;
 
 import java.util.List;
 
